@@ -196,6 +196,7 @@ p{
 	bottom: 	30px;
 	right: 	30px;
 	height: 	40px;
+	visibility: 	hidden;	
 	width: 	40px;
 	overflow: 	hidden;	transition: 	all .3s;
 }
@@ -229,5 +230,8 @@ p{
 	}
 	.c-hamburger{
 		visibility: visible	;	
+	}
+	.links{
+		visibility: 	visible;	
 	}
 }
