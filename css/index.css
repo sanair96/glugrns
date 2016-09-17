@@ -1,0 +1,101 @@
+html{
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+color:#525c65;
+line-height: 1.625rem;
+    color: #525c65;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.nav{
+	vertical-align: middle;
+}
+.logo{
+	height: 100px;
+	position: relative;
+	top: 10px;
+	right: -10px;
+}
+.nav-div{
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	right: 40px;
+}
+.nav-but{
+	text-decoration: none;
+	color: #e6e6e6;
+	padding: 15px;
+	border-radius: 5px;
+	overflow: hidden;
+	visibility: visible;	
+}
+.sec{
+	background: #7d97ad;
+
+}
+.pri{
+	background: #028bb1;
+}
+.container{px;
+	text-align: center;
+}
+h1{
+	width: 100%;
+	font-size: 2.5rem;
+    line-height: 3.25rem;
+    font-weight: 300;
+}
+h6{
+	width: 100%;
+	font-size: 0.8125rem;
+    line-height: 1.625rem;
+
+}
+h2{
+	font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+h1,h2,h3,h4,h5,h6{
+	    color: #2e3d49;
+	        font-family: "Open Sans", sans-serif;
+}
+.introTextContain{
+	background: #fafbfc;
+	    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    margin-top: 0;
+    padding:20px;
+}
+.introText{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+@media only screen and (max-width: 490px)
+{
+	.nav-but{
+		visibility: hidden;
+	}
+	.nav{
+		text-align: center;
+	}
+	.logo{
+		right: 0px;
+	}
+	p{
+		text-align: justify;
+	}
+}
