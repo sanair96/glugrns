@@ -157,10 +157,12 @@ p{
 
 .c-hamburger--htx {
  background:rgba(2,179,228,.9);
+ background: #009688;
 }
 
 .c-hamburger--htx span {
   transition: background 0s 0.3s;
+  transition-property: background box-shadow;
 }
 
 .c-hamburger--htx span::before,
@@ -180,6 +182,8 @@ p{
 /* active state, i.e. menu open */
 .c-hamburger--htx.is-active {
   background:rgba(2,179,228,.9);
+  background: #009688;
+  box-shadow: none;
 }
 
 .c-hamburger--htx.is-active span {
@@ -202,7 +206,8 @@ p{
 }
 
 .links{
-	background:rgba(2,179,228,.9);
+	/*background:rgba(2,179,228,.9);*/
+	background: #009688;
 	margin-left: 	auto;	
 	margin-right: 	auto;	
 	position: 	fixed;	
