@@ -10,6 +10,7 @@ line-height: 1.625rem;
 }
 .nav{
 	vertical-align: middle;
+	background: #1976D2;
 }
 .logo{
 	height: 100px;
@@ -40,6 +41,9 @@ line-height: 1.625rem;
 }
 .container{px;
 	text-align: center;
+	background: #1976d2;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 h1{
 	width: 100%;
@@ -51,24 +55,29 @@ h5{
 	width: 100%;
 	font-size: 0.8125rem;
     line-height: 1.625rem;
+    margin-top: 0px;
 
 }
 h2{
 	font-size: 1.125rem;
     line-height: 1.625rem;
+    margin-bottom: 0px;
+}
+.cont-head{
+	color: #e6e6e6;
 }
 h1,h2,h3,h4,h5,h6{
-	    color: #2e3d49;
 	        font-family: "Open Sans", sans-serif;
 }
 .introTextContain{
-	background: #fafbfc;
+	/*background: #bbdefb;*/
 	    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;
     margin-top: 0;
     padding:20px;
+
 }
 .introText{
 	width: 80%;
