@@ -47,7 +47,7 @@ h1{
     line-height: 3.25rem;
     font-weight: 300;
 }
-h6{
+h5{
 	width: 100%;
 	font-size: 0.8125rem;
     line-height: 1.625rem;
@@ -212,7 +212,9 @@ p{
 	padding:10px;
 	text-align: 	center;
 }
-
+.mob{
+	display: none;
+}
 
 @media only screen and (max-width: 490px)
 {
@@ -233,5 +235,12 @@ p{
 	}
 	.links{
 		visibility: 	visible;	
+	}
+	.desk{
+		display: none;
+	}
+	.mob{
+		display: initial;
+		visibility: visible;
 	}
 }
