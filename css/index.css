@@ -11,7 +11,8 @@ line-height: 1.625rem;
 }
 .nav{
 	vertical-align: middle;
-	background: #1976D2;
+	/*background: #1976D2;*/
+	background: #00796b;
 }
 .logo{
 	height: 100px;
@@ -42,7 +43,8 @@ line-height: 1.625rem;
 }
 .container{px;
 	text-align: center;
-	background: #1976d2;
+	/*background: #1976d2;*/
+	background: #00796b;
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
@@ -225,7 +227,20 @@ p{
 .mob{
 	display: none;
 }
-
+footer{
+	background: #009688;
+	color: #e6e6e6;
+	padding: 10px;
+	font-size: .825rem;
+}
+.foot-link{
+	text-decoration: none;
+	color: #e6e6e6;
+	float: right;
+}
+.foot-link:hover{
+	text-decoration: underline;
+}
 @media only screen and (max-width: 490px)
 {
 	.nav-but{
@@ -233,6 +248,7 @@ p{
 	}
 	.nav{
 		text-align: center;
+		padding-top: 20px;
 	}
 	.logo{
 		right: 0px;
