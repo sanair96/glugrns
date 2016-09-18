@@ -11,8 +11,8 @@ line-height: 1.625rem;
 }
 .nav{
 	vertical-align: middle;
-	/*background: #1976D2;*/
-	background: #00796b;
+	background: #1976D2;
+	/*background: #00796b;*/
 }
 .logo{
 	height: 100px;
@@ -43,8 +43,8 @@ line-height: 1.625rem;
 }
 .container{px;
 	text-align: center;
-	/*background: #1976d2;*/
-	background: #00796b;
+	background: #1976d2;
+	/*background: #00796b;*/
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
@@ -157,7 +157,7 @@ p{
 
 .c-hamburger--htx {
  background:rgba(2,179,228,.9);
- background: #009688;
+ background: #03a9f4;
 }
 
 .c-hamburger--htx span {
@@ -182,7 +182,7 @@ p{
 /* active state, i.e. menu open */
 .c-hamburger--htx.is-active {
   background:rgba(2,179,228,.9);
-  background: #009688;
+  background: #03a9f4;
   box-shadow: none;
 }
 
@@ -235,7 +235,8 @@ p{
 	display: none;
 }
 footer{
-	background: #009688;
+	/*background: #009688;*/
+	background: #2196f3;
 	color: #e6e6e6;
 	padding: 10px;
 	font-size: .825rem;
