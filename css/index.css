@@ -3,14 +3,16 @@ html{
 	font-family: 'Open Sans', sans-serif;
 }
 body{
-color:#525c65;
 line-height: 1.625rem;
     color: #525c65;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
+/*padding: 0px;*/
 }
 .nav{
 	vertical-align: middle;
+	background: #1976D2;
+	/*background: #00796b;*/
 }
 .logo{
 	height: 100px;
@@ -41,6 +43,10 @@ line-height: 1.625rem;
 }
 .container{px;
 	text-align: center;
+	background: #1976d2;
+	/*background: #00796b;*/
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 h1{
 	width: 100%;
@@ -48,28 +54,33 @@ h1{
     line-height: 3.25rem;
     font-weight: 300;
 }
-h6{
+h5{
 	width: 100%;
 	font-size: 0.8125rem;
     line-height: 1.625rem;
+    margin-top: 0px;
 
 }
 h2{
 	font-size: 1.125rem;
     line-height: 1.625rem;
+    margin-bottom: 0px;
+}
+.cont-head{
+	color: #e6e6e6;
 }
 h1,h2,h3,h4,h5,h6{
-	    color: #2e3d49;
 	        font-family: "Open Sans", sans-serif;
 }
 .introTextContain{
-	background: #fafbfc;
+	/*background: #bbdefb;*/
 	    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;
     margin-top: 0;
     padding:20px;
+
 }
 .introText{
 	width: 80%;
@@ -84,6 +95,160 @@ h1,h2,h3,h4,h5,h6{
 p{
 	text-align: center;
 }
+
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  visibility: 	hidden;	
+  z-index: 100000;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  position: fixed;	
+  bottom: 	30px;
+  right:30px;
+  text-indent: -9999px;
+  appearance: none;
+  /*box-shadow: none;*/
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  right: 18px;
+  height: 4px;
+  background: white;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -10px;
+}
+
+.c-hamburger span::after {
+  bottom: -10px;
+}
+
+
+
+
+.c-hamburger--htx {
+ background:rgba(2,179,228,.9);
+ background: #03a9f4;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s 0.3s;
+  transition-property: background box-shadow;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background:rgba(2,179,228,.9);
+  background: #03a9f4;
+  box-shadow: none;
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s;
+}
+
+.links{
+	/*background:rgba(2,179,228,.9);*/
+	background: #03a9f4;
+	margin-left: 	auto;	
+	margin-right: 	auto;	
+	position: 	fixed;	
+	bottom: 	30px;
+	right: 	30px;
+	height: 	40px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+	visibility: 	hidden;	
+	width: 	40px;
+	overflow: 	hidden;	transition: 	all .3s;
+}
+.links-active{
+	height: 100px;
+	width: 	80%;
+}
+.plink{
+	text-decoration: 	none;	
+	color: #e6e6e6;
+	width:100%;
+	display: block;	
+	padding:10px;
+	text-align: 	center;
+}
+.mob{
+	display: none;
+}
+footer{
+	/*background: #009688;*/
+	background: #2196f3;
+	color: #e6e6e6;
+	padding: 10px;
+	font-size: .825rem;
+}
+.foot-link{
+	text-decoration: none;
+	color: #e6e6e6;
+	float: right;
+}
+.foot-link:hover{
+	text-decoration: underline;
+}
 @media only screen and (max-width: 490px)
 {
 	.nav-but{
@@ -91,11 +256,25 @@ p{
 	}
 	.nav{
 		text-align: center;
+		padding-top: 20px;
 	}
 	.logo{
 		right: 0px;
 	}
 	p{
 		text-align: justify;
+	}
+	.c-hamburger{
+		visibility: visible	;	
+	}
+	.links{
+		visibility: 	visible;	
+	}
+	.desk{
+		display: none;
+	}
+	.mob{
+		display: initial;
+		visibility: visible;
 	}
 }
