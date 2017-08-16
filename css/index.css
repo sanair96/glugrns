@@ -1,11 +1,14 @@
 html{
 	background: #ffffff;
 	font-family: 'Open Sans', sans-serif;
+	height: 	100vh;
 }
 body{
 line-height: 1.625rem;
     color: #525c65;
     font-size: 16px;
+    position: 	relative;	
+    height: 	100vh;
     font-family: "Open Sans", sans-serif;
 /*padding: 0px;*/
 }
@@ -245,6 +248,13 @@ footer{
 	text-decoration: none;
 	color: #e6e6e6;
 	float: right;
+}
+.gitlink{
+	text-decoration: none;
+	color: #e6e6e6;
+}
+.gitlink:hover{
+	text-decoration: underline;
 }
 .foot-link:hover{
 	text-decoration: underline;
